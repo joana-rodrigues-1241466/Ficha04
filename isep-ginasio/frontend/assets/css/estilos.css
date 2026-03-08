@@ -1,0 +1,168 @@
+/* Seletor Universal - Remove margens e preenchimentos padrão */
+* {
+    margin: 0;
+    /* Remove margens padrão */
+    padding: 0;
+    /* Remove preenchimento padrão */
+    box-sizing: border-box;
+    /* Inclui a borda e o preenchimento no cálculo do tamanho */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Define a fonte padrão */
+}
+
+/* Estilo da barra de navegação principal */
+.bng-navbar {
+    background-color: #343a40;
+    /* Cor de fundo escura */
+    display: flex;
+    /* Coloca os elementos em linha */
+    align-items: center;
+    /* Centraliza os itens verticalmente */
+    justify-content: space-between;
+    /* Espaço entre os blocos */
+    padding: 10px 20px;
+    /* Espaçamento interno da barra */
+    position: sticky;
+    /* Fixa a barra no topo ao fazer scroll */
+    top: 0;
+    /* A barra fica colada ao topo */
+}
+
+/* Estilo para os <div> internos da barra de navegação */
+.bng-navbar div {
+    display: flex;
+    align-items: center;
+    /* Coloca os elementos lado a lado */
+    /* Alinha-os verticalmente ao centro */
+}
+
+/* Estilo do logótipo na barra de navegação */
+.bng-navbar img {
+    /* Define a altura do logótipo */
+    height: 50px;
+    /* Espaço entre o logótipo e o texto */
+    margin-right: 10px;
+}
+
+/* Estilo do texto com o nome do ginásio */
+.bng-navbar h3 {
+    /* Aumenta o tamanho da letra */
+    font-size: 1.5em;
+    /* Cor do texto em cinza claro */
+    color: #dddddd;
+}
+
+/* Estilos para os links centrais da navegação */
+.container-navegacao {
+    /* Centraliza os links */
+    text-align: center;
+    /* Adiciona espaçamento interno */
+    padding: 20px;
+}
+
+.container-navegacao a {
+    /* Aumenta o tamanho da fonte dos links */
+    font-size: 1.5em;
+    /* Espaçamento horizontal entre os links */
+    margin: 0px 50px;
+    /* Remove o sublinhado */
+    text-decoration: none;
+    /* Define a cor dos links */
+    color: #dddddd;
+}
+
+.container-navegacao a:hover {
+    /* Muda a cor ao passar o mouse */
+    color: #ffffff;
+}
+
+/* Estilos para o botão da Área Cliente */
+.nav-cliente a {
+    /* Cor do texto */
+    color: #dddddd;
+    /* Remove sublinhado */
+    text-decoration: none;
+    /* Tamanho da fonte */
+    font-size: 1.5em;
+    /* Espaçamento interno */
+    padding: 10px;
+    /* Bordas arredondadas */
+    border-radius: 5px;
+    /* Efeito suave na transição */
+    transition: background 0.3s;
+}
+
+/* Efeito ao passar o mouse no botão da Área Cliente */
+.nav-cliente a:hover {
+    /* Cor de fundo ao passar o mouse */
+    background-color: #0056b3;
+}
+
+/* Estilos para o Rodapé */
+.footer-container {
+    /* Ativa o layout flexível */
+    display: flex;
+    /* Cor de fundo escura */
+    background-color: #343a40;
+    /* Cor do texto */
+    color: white;
+    /* Espaçamento interno do rodapé */
+    padding: 40px 20px;
+    /* Permite que os itens se ajustem em ecrãs pequenos */
+    flex-wrap: wrap;
+    /* Fixa o rodapé no fundo da página */
+    position: fixed;
+    /* Alinha o rodapé à parte inferior */
+    bottom: 0;
+    /* Alinha o rodapé à esquerda */
+    left: 0;
+    /* Faz o rodapé ocupar toda a largura da página */
+    width: 100%;
+}
+
+.footer-section {
+    /* Faz com que as secções tenham larguras iguais */
+    flex: 1;
+    /* Define uma largura mínima para cada secção */
+    min-width: 250px;
+    /* Espaçamento interno */
+    padding: 10px;
+    /* Centraliza o conteúdo de cada bloco */
+    text-align: center;
+}
+
+.footer-section strong {
+    /* Tamanho da fonte para os títulos */
+    font-size: 1.2rem;
+    /* Ocupa toda a largura disponível */
+    display: block;
+    /* Espaçamento abaixo do título */
+    margin-bottom: 10px;
+    /* Cor clara para destaque */
+    color: #f8f9fa;
+}
+
+.footer-section p {
+    /* Tamanho padrão do texto */
+    font-size: 1rem;
+    /* Cor do texto em cinza claro */
+    color: #d6d6d6;
+}
+
+/* Texto Genérico */
+.container-texto-generico {
+    /* Ativa o layout flexível */
+    display: flex;
+    /* Centraliza os elementos horizontalmente */
+    justify-content: center;
+    /* Permite quebra de linha em ecrãs menores */
+    flex-wrap: wrap;
+    /* Espaço entre os elementos */
+    gap: 20px;
+    /* Espaçamento interno (superior/inferior e laterais) */
+    padding: 100px 40px;
+    /* Centraliza o texto dentro dos artigos */
+    text-align: center;
+    /* Garante altura mínima de uma janela (ecrã) */
+    min-height: 100vh;
+}
