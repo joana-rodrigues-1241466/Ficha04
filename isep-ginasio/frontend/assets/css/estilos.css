@@ -166,3 +166,60 @@
     /* Garante altura mínima de uma janela (ecrã) */
     min-height: 100vh;
 }
+
+/* Seção "Quem Somos" */
+#quem-somos {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.quem-somos-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.quem-somos-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.quem-somos-content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+/* Centra todo o conteúdo horizontalmente */
+/* Espaçamento superior e inferior de 100px */
+/* Largura máxima de 800px para limitar o conteúdo */
+/* Centra horizontalmente o conteúdo */
+/* Tamanho grande para o título principal */
+/* Espaçamento abaixo do título */
+/* Aumenta o tamanho da letra do parágrafo */
+/* Espaço abaixo do parágrafo */
+.quem-somos-content img {
+    width: 700px;
+    height: 165px;
+    display: block;
+    margin: 20px auto;
+    object-fit: cover;
+}
+
+.button {
+    display: inline-block;
+    background-color: #aaaaaa;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    /* Define uma largura fixa da imagem */
+    /* Define uma altura fixa da imagem */
+    /* Faz com que a imagem se comporte como bloco (para usar margin auto) */
+    /* Centraliza a imagem com margens acima e abaixo */
+    /* Corta a imagem de forma proporcional sem distorcer */
+    /* Permite definir largura/altura e manter como botão em linha */
+    /* Cor de fundo cinza-claro */
+    /* Cor do texto branca */
+    /* Espaçamento interno (vertical x horizontal) */
+    /* Remove o sublinhado do link */
+    /* Bordas arredondadas no botão */
+}
