@@ -370,3 +370,46 @@ section {
     margin-bottom: 5px;
     /* Espaço entre cada linha da lista */
 }
+
+#contacto form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+
+    /* Usa layout flexível */
+    /* Organiza os elementos na vertical */
+    /* Limita a largura do formulário */
+    /* Centraliza horizontalmente */
+    #contacto label {
+        margin-top: 10px;
+    }
+}
+
+/* Espaço acima de cada rótulo (label) */
+#contacto input,
+#contacto textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    /* Espaço interno (dentro do campo) */
+    /* Espaço abaixo de cada campo */
+    /* Borda cinzenta clara */
+    /* Bordas arredondadas */
+}
+
+#contacto button {
+    background-color: #ddd;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* Cor de fundo do botão (cinzento claro) */
+    /* Cor do texto do botão (branco) */
+    /* Espaçamento interno do botão */
+    /* Remove a borda padrão */
+    /* Bordas arredondadas */
+    /* Cursor tipo "mão" ao passar por cima */
+}
